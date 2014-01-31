@@ -3,7 +3,7 @@
     <modules>
         <Mokadev_Popin>
             <active>true</active>
-            <codePool>local</codePool>
+            <codePool>community</codePool>
         </Mokadev_Popin>
     </modules>
 </config>
