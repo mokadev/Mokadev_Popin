@@ -1,0 +1,5 @@
+"Show the popin","Afficher la popin"
+"Show it only in the home page?","N'afficher qu'en page d'accueil"
+"Cookie lifetime","Durée de vie du cookie"
+"Time between each view for a visitor (in seconds, default 86000 = 1 day)", "Durée entre deux affichages pour un même client (defaut: 86000 = 1 jour)"
+"CMS Block","Bloc CMS"

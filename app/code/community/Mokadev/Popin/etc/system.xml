@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <mokadev_popin translate="label" module="mokadev_popin">
+            <label>Popin</label>
+            <tab>general</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>1001</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+                <groups>
+                    <general translate="label comment">
+                        <label>General</label>
+                        <sort_order>1</sort_order>
+                        <show_in_default>1</show_in_default>
+                        <show_in_website>1</show_in_website>
+                        <show_in_store>1</show_in_store>
+                        <fields>
+                            <active translate="label">
+                                <label>Show the popin</label>
+                                <frontend_type>select</frontend_type>
+                                <sort_order>10</sort_order>
+                                <source_model>adminhtml/system_config_source_yesno</source_model>
+                                <show_in_default>1</show_in_default>
+                                <show_in_website>1</show_in_website>
+                                <show_in_store>1</show_in_store>
+                            </active>
+                            <home_only translate="label">
+                                <label>Show it only in the home page?</label>
+                                <frontend_type>select</frontend_type>
+                                <sort_order>15</sort_order>
+                                <source_model>adminhtml/system_config_source_yesno</source_model>
+                                <show_in_default>1</show_in_default>
+                                <show_in_website>1</show_in_website>
+                                <show_in_store>1</show_in_store>
+                            </home_only>
+                            <cookie translate="label comment">
+                                <label>Durée de vie du cookie</label>
+                                <comment>Time between each view for a visitor (in seconds, default 86000 = 1 day)</comment>
+                                <frontend_type>text</frontend_type>
+                                <sort_order>20</sort_order>
+                                <show_in_default>1</show_in_default>
+                                <show_in_website>1</show_in_website>
+                                <show_in_store>1</show_in_store>
+                            </cookie>
+                            <block translate="label">
+                                <label>CMS Block</label>
+                                <frontend_type>select</frontend_type>
+                                <source_model>mokadev_popin/system_config_source_cms_block</source_model>
+                                <sort_order>25</sort_order>
+                                <show_in_default>1</show_in_default>
+                                <show_in_website>1</show_in_website>
+                                <show_in_store>1</show_in_store>
+                            </block>
+                        </fields>
+                    </general>
+                </groups>
+        </mokadev_popin>
+    </sections>
+</config>

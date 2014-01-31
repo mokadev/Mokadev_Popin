@@ -1,0 +1,22 @@
+<?php $popinContent = $this->getPopinContent() ?>
+<?php if ($popinContent): ?>
+<div id="popin_home_event" class="hidden">
+    <div class="std">
+        <?php echo $popinContent ?>
+    </div>
+</div>
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        var contentPopin = $('#popin_home_event').html();
+        $.fancybox(
+            contentPopin,
+            {
+                'padding'           : 40,
+                'hideOnContentClick': true,
+                'transitionIn'      : 'none',
+                'transitionOut'     : 'none'
+            }
+        );
+    });
+</script>
+<?php endif; ?>

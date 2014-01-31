@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>js/jquery-1.11.0.min.js</name>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>js/fancybox/jquery.fancybox-1.3.4.pack.js</name>
+            </action>
+            <action method="addCss">
+                <stylesheet>css/fancybox/jquery.fancybox.css</stylesheet>
+            </action>
+        </reference>
+        <reference name="before_body_end">
+            <block type="mokadev_popin/popin" name="event.popin" template="mokadev/popin/content.phtml"/>
+        </reference>
+    </default>
+</layout>

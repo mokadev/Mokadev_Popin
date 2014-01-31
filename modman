@@ -1,1 +1,10 @@
 #Mokadev_Popin
+app/etc/modules/Mokadev_Popin.xml                                app/etc/modules/Mokadev_Popin.xml
+app/code/community/Mokadev/Popin/                                app/code/community/Mokadev/Popin/
+app/design/frontend/base/default/layout/mokadev/popin.xml        app/design/frontend/base/default/layout/mokadev/popin.xml
+app/design/frontend/base/default/template/mokadev/popin/         app/design/frontend/base/default/template/mokadev/popin/
+app/locale/en_US/Mokadev_Popin.csv                               app/locale/en_US/Mokadev_Popin.csv
+app/locale/fr_FR/Mokadev_Popin.csv                               app/locale/fr_FR/Mokadev_Popin.csv
+skin/frontend/base/default/css/fancybox/                         skin/frontend/base/default/css/fancybox/
+skin/frontend/base/default/js/fancybox/                          skin/frontend/base/default/js/fancybox/
+skin/frontend/base/default/js/jquery-1.11.0.min.js               skin/frontend/base/default/js/jquery-1.11.0.min.js
