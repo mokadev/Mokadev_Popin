@@ -39,7 +39,7 @@ class Mokadev_Popin_Block_Popin extends Mage_Core_Block_Template
         }
 
         //only in home page and we are not in home page?
-        if($this->getStoreConfigFlag($this->_path_home_only) && !$this->getIsHomePage()) {
+        if(Mage::getStoreConfigFlag($this->_path_home_only) && !$this->getIsHomePage()) {
             return false;
         }
 
