@@ -7,4 +7,4 @@ app/locale/en_US/Mokadev_Popin.csv                               app/locale/en_U
 app/locale/fr_FR/Mokadev_Popin.csv                               app/locale/fr_FR/Mokadev_Popin.csv
 skin/frontend/base/default/css/fancybox/                         skin/frontend/base/default/css/fancybox/
 skin/frontend/base/default/js/fancybox/                          skin/frontend/base/default/js/fancybox/
-skin/frontend/base/default/js/jquery-1.11.0.min.js               skin/frontend/base/default/js/jquery-1.11.0.min.js
+skin/frontend/base/default/js/jquery-1.8.3.min.js               skin/frontend/base/default/js/jquery-1.8.3.min.js
