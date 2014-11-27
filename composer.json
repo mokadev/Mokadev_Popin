@@ -1,0 +1,17 @@
+{
+    "name": "Mokadev/Mokadev_Popin",
+    "type": "magento-module",
+    "homepage": "http://www.mokadev.com",
+    "description": "This extension add a way to generate a popin in Magento.",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors": [
+    {
+    	"name": "Mohamed Kaïd",
+    	"homepage": "http://www.mokadev.com",
+    	"email": "contact [AT] mokadev.com"
+    }
+
+    ]
+}
