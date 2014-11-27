@@ -1,5 +1,5 @@
 {
-    "name": "Mokadev/Mokadev_Popin",
+    "name": "mokadev/popin",
     "type": "magento-module",
     "homepage": "http://www.mokadev.com",
     "description": "This extension add a way to generate a popin in Magento.",
